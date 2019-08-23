@@ -1,0 +1,23 @@
+{
+  "name": "red-or-black",
+  "version": "1.0.0",
+  "description": "Flips a card that is red or black",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juspinas/red-or-black.git"
+  },
+  "author": "Justin Espinas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juspinas/red-or-black/issues"
+  },
+  "homepage": "https://github.com/juspinas/red-or-black#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
