@@ -1,6 +1,6 @@
 const path = require("path");
 const express = require("express");
-const requestPromise = require("request-promise");
+const request = require("request-promise");
 const app = express();
 
 const htmlPath = path.join(__dirname, "index.html");
@@ -14,7 +14,7 @@ console.log("path join = ", path.join(__dirname, "index.html"));
 
 // app.get("/", (req, res) => res.sendFile(path.join(__dirname, "index.html")));
 
-app.get("/cards", async (req, res) => {
+app.get("/newDeck", async (req, res) => {
 	var settings = {
 		async: true,
 		crossDomain: true,
