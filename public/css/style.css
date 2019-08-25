@@ -1,10 +1,37 @@
+html{
+    background-image: linear-gradient(to bottom right,rgb(8, 82, 8), rgba(21, 226, 21, 0.555));
+    /* background-image: linear-gradient(rgb(8, 82, 8), rgba(21, 226, 21, 0.555)); */
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
 #heading {
-    border: 5px solid black;
+    color: white;
+    font-family: Helvetica;
     text-align: center;
+}
+#mainDisplay {
+    border: 5px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    height: 100%;
+}
+#cardCountText {
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+}
+#cardImage {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
 }
 #buttonContainer {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 30px;
 }
 #redButton {
     background-color: red;
