@@ -16,6 +16,7 @@
     border-radius: 25px;
     padding: 10px;
     height: 100%;
+    display: block;
 }
 #cardCountText {
     font-size: 25px;
@@ -31,24 +32,29 @@
     padding-top: 10px;
 }
 #buttonContainer {
+    position: bottom;
     text-align: center;
     margin-top: 30px;
+    display: flex;
+}
+.centerTag {
+    margin: 0 auto;
+    max-width: 800px;
+}
+.colorButton {
+    color: white;
+    font-size: 30px;
+    max-width: 150px;
+    max-height: 150px;
+    width: 150px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 #redButton {
     background-color: red;
-    color: white;
-    font-size: 30px;
-    width: 150px;
-    height: 150px;
-    padding: 20px;
-    margin-left: 50px;
 }
 #blackButton {
     background-color: black;
-    color: white;
-    font-size: 30px;
-    width: 150px;
-    height: 150px;
-    padding: 20px;
-    margin-right: 50px;
 }
