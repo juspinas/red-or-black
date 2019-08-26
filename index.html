@@ -5,6 +5,7 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="shortcut icon" href="https://images-na.ssl-images-amazon.com/images/I/511KeLyx1GL._SY355_.jpg"/>
+		<!-- <script type="text/javascript" src="button_functions.js"></script> -->
 		<title>Red or Black?</title>
 	</head>
 	<body id="background">
@@ -22,8 +23,9 @@
 
 			<div id="buttonContainer">
 				<div class="centerTag">
-					<button id="redButton" class="colorButton">Red</button>
-					<button id="blackButton" class="colorButton">Black</button>	
+					<input type="button" id="nextButton" value="Next Round" onclick="startNext()"/>
+					<input type="button" id="redButton" class="colorButton" value="Red" onclick="choice()"/>
+					<input type="button" id="blackButton" class="colorButton" value="Black" onclick="choice()"/>
 				</div>
 			</div>
 		</div>

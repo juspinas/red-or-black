@@ -19,6 +19,7 @@ html{
     padding: 10px;
     height: 100%;
     display: block;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 #cardCountText {
     font-size: 25px;
@@ -48,13 +49,24 @@ html{
     color: white;
     font-size: 30px;
     font-variant: small-caps;
-    max-width: 150px;
-    max-height: 150px;
-    width: 150px;
+    max-width: 130px;
+    width: 130px;
     display: inline-block;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+#nextButton {
+    color: white;
+    font-size: 30px;
+    font-variant: small-caps;
+    max-width: 250px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    background-color: green;
+    display: none;
 }
 #redButton {
     background-color: red;
