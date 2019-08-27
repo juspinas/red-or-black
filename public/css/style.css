@@ -21,7 +21,16 @@ html{
     display: block;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
+#textContainer {
+    display: block;
+}
 #cardCountText {
+    font-size: 25px;
+    font-variant: small-caps;
+    color: white;
+    padding: 15px;
+}
+#pointCountText {
     font-size: 25px;
     font-variant: small-caps;
     color: white;
